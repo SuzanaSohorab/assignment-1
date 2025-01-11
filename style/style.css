@@ -44,8 +44,12 @@ main{
     justify-content: space-between;
     height: 100px;
     width: 1228.8px;
+    margin-top: 20px;
 }
-
+.nav-bar h2{
+    font-size: 40px;
+    font-weight: bold;
+}
 
 
 .sign-btn{
