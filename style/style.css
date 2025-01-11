@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /*font stlye*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 1228.8px;
+    width: fit-content;
+    box-sizing: border-box;
+   
+}
+main{
+    margin: 80px 0px;
+}
+.all{
+    margin: 0px 153.6px;
+    background-color:#F1F1F3 ;
+}
+.main-margin{
+    margin: 0px auto;
+}
 .fira-sans-light {
     font-family: "Fira Sans", serif;
     font-weight: 300;
@@ -8,18 +27,27 @@
   }
 /*font stlye*/
 
+/*shared style*/
+.description{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7);
+    padding: 12px 0px;
+}
+
+.hover:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
 /*nav-bar stlye*/
 .nav-bar{
     display: flex;
     justify-content: space-between;
     height: 100px;
-    width: 1600px;
+    width: 1228.8px;
 }
 
-.sign-btn:hover{
-    opacity: 50%;
-    cursor: pointer;
-}
+
+
 .sign-btn{
     font-weight: bold;
     font-size: 18px;
@@ -28,4 +56,275 @@
     width: 116px;
     border-radius: 5px;
     border-color: #006A50;
+}
+
+/*hero section*/
+
+.hero-section{
+    display: flex;
+    gap:64px;
+    width: 1228.8px;
+    height: 560px;
+   /* padding: 80px 100px;  not woring make content over flow why?*/
+    padding: 40px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    
+    
+}
+/*box-1*/
+.hero-moto{
+    height: 326px;
+    width: 622px;
+    padding:100px 150px 100px 30px ;
+   
+}
+.hero-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+}
+.moto-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    height: 56px;
+    width: 270px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+
+.moto-description{
+    font-size: 45.5px;
+    margin-bottom: 24px;
+}
+/*box-2*/
+.hero-img{
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+/* page-2*/
+.main-box-1{
+    height: 324px; ;
+}
+
+.pillars{
+    display: flex;
+    gap: 10px;
+    height: 244px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    
+}
+.pillar{
+    height: 244px;
+    width: 302px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding:  24px;
+    gap: 10px;
+   
+}
+.main-news p{
+    margin-bottom: 25px;
+}
+/*page-3-box-1*/
+.page-3{
+    display: block;
+    height: 765px;
+    width: 1228.8px;
+    margin: 80px 0px;
+
+}
+.vision-boxs{
+    display: flex;
+    height: 325px;
+    width: 1228.8px;
+    margin: 32px 0px;
+    gap: 24px;
+    justify-content: space-between;
+   
+    
+}
+.vision-description{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7);
+    padding: 24px 0px;
+}
+.vision-box{
+    height: 325px;
+    width: 410.67px;
+    padding: 32px;
+    border-radius: 16px;
+    /*margin: 32px 0px; if i apply this boxes give no gap between vision box and 2nd part*/
+    box-sizing: border-box;
+}
+
+.vision-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.vision-content{
+    margin: 24px 0px;
+}
+.vision-btn{
+    height: 41px;
+    width: 122px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: lighter;
+    
+
+}
+
+.vision-part-2{
+    height: 256px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+    margin: 24px 0px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+/*page-4 recent news*/
+.page-4{
+    height: 1406px;
+    margin: 80px 0px;
+    
+}
+
+.news-box-1 , .news-box-2{
+    height: 402px;
+    display: flex;
+    gap: 32px;
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 24px;
+    margin: 24px 0px;
+}
+
+.satelite-img{
+    border-radius: 24px;
+}
+
+.news-box-2{
+    height: 402px;
+    display: flex;
+    gap: 32px;
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 24px;
+    margin: 24px 0px;
+    flex-direction: row-reverse;
+}
+.news-btn {
+    height: 48px;
+    width: 139px;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+    font-size: 17px; /* 18px overflow words from btn why???*/
+
+}
+
+/* donate section*/
+
+.donate-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 464px;
+    margin: 80px 0px;
+}
+.donate-section h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.taka-boxs{
+    display: flex;
+    width: 1071px;
+    justify-content: center;
+    gap: 24px;
+    margin: 32px 0px;
+}
+
+.taka-box{
+    background-color :#FFFFFF;
+    height: 128px;
+    width: 240px;
+    border-radius: 16px;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 30px; /* 40 px maks word overflow*/
+}
+.taka-box:hover{
+    background-color: #C6E4D6;
+}
+.amount-box{
+    height: 64px;
+    width:1032px ;
+    padding: 20px 40px;
+    text-align: center;
+    color:rgba(14, 14, 14, 0.3) 30% ;
+    margin: 32px 0px;
+    border: none;
+
+}
+.donate-btn {
+    height: 56px;
+    width: 151px;
+    padding: 17px 32px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+    font-size: 17px; /* 18px overflow words from btn why???*/
+}
+
+/* Newsletter section*/
+.newsletter{
+    height: 395px;
+    width: 1228.8px;
+    background-color: #C6E4D6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 100px;
+    margin: 80px 0px;
+    border-radius: 24px;
+    
+   
+}
+.email-box{
+    height: 56px;
+    width: 750px;
+    margin: 24px 0px;
+    padding: 18px 40px;
+    border-radius: 10px;
+    border: none;
+
+}
+.footer{
+    height: 226px ;
+    padding: 50px 160px;
+    background-color: #FFFFFF;
+    position: relative;
+    
+
 }
